@@ -13,7 +13,7 @@ Facter.add('vcenter_name') do
       "4f"=>"vc2",
       "5b"=>"vc3"
     }
-    vc_code = Facter.value(:vc_code)
+    vc_code = Facter.value(:vcenter_code)
     vc_name[vc_code]
   end
 end
